@@ -1,0 +1,176 @@
+* {
+  border-size: border-box;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  min-width: 780px;
+}
+
+.banner {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 1em;
+}
+
+.banner span {
+  margin: 0 8px 0 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  opacity: .8;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.banner #apps {
+  background: url("http://image.flaticon.com/icons/svg/56/56844.svg");
+  opacity: .5;
+  display: inline-block;
+  background-size: 100%;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.banner #apps:hover {
+  opacity: .9;
+}
+
+.banner button {
+  background-color: #4584F1;
+  color: white;
+  height: 32px;
+  width: 70px;
+  box-shadow: none;
+  border-width: 0;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.banner button:active {
+  background-color: #4584F1;
+}
+
+.banner button:focus {
+  background-color: #3667B9;
+  outline: none;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.logo #google {
+  display: inline-block;
+  width: 280px;
+}
+
+.search {
+  text-align: center;
+}
+
+input {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png") no-repeat right;
+  background-size: 15px;
+  background-position: right 10px center;
+  margin: 29px auto;
+  height: 40px;
+  width: 525px;
+  border-color: #DDD;
+  border-width: thin;
+  border-style: solid;
+  padding: 0 50px 0 10px;
+  font-size: 1.2em;
+}
+
+input:hover {
+  border-color: #BBB;
+  opactiy: 1;
+}
+
+input:focus {
+  outline: none;
+  border-color: royalblue;
+}
+
+input:active {
+  border-color: royalblue;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  opacity: .9;
+  font-weight: bold;
+  background-color: #EEE;
+  height: 36px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #EEE;
+  color: #666;
+  margin: 0 4px 0 4px;
+  padding: 0 20px 0 20px;
+  border-radius: 2px;
+}
+
+.buttons button:hover {
+  color: black;
+  background: rgba(233, 233, 233, .6);
+  border-style: solid;
+  border-width: .1;
+  border-color: #AAA;
+  color: black;
+  outline: none;
+  box-shadow: .1px .1px 5px #CCC;
+}
+
+.buttons button:focus,
+button:active {
+  outline: none;
+}
+
+.buttons button:active {
+  border-color: royalblue;
+}
+
+.footer {
+  background-color: #EEE;
+  margin-left: -10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 10px 13px 10px;
+}
+
+.footer .left {
+  display: block;
+  float: left;
+}
+
+.footer .right {
+  display: block;
+  float: right;
+  position: relative;
+  right: 15px;
+}
+
+.footer span {
+  margin: 0 10px;
+}
