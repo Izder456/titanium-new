@@ -22,12 +22,12 @@
 				<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
 			</span>
         </div>
-	<form action="index.php" method="post">
+	<form action="index.php" id="form" method="post">
         <div class="search">
             <input name="url" type="text" autocomplete="off"/>
         </div>
         <div class="buttons">
-            <input type="submit" id="google-search">Google Search</input>
+            <button id="google-search">Google Search</button>
             <button id="lucky">I'm Feeling Lucky</button>
         </div>
 	    </form>
@@ -51,6 +51,13 @@
 	        <span id="about"><a href="#">Settings</a></span>
         </span>
     </div>
+  	  <script>
+	   	var form = document.getElementById("form");
+
+		document.getElementById("google-search").addEventListener("click", function () {
+		  form.submit();
+		});
+	</script>
 </body>
 
 </html>
