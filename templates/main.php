@@ -34,7 +34,7 @@
 	<?php if(isset($error_msg)){ ?>
 	
 	<div id="error">
-		<div class="message"><?php echo $error_msg; ?></div>
+	<div class="message" style="text-align: center;"><?php echo $error_msg; ?></div>
 	</div>
 	
 	<?php } ?>
