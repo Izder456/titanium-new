@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Google Page</title>
+    <title>Google</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.google.com/favicon.ico">
 </head>
 
 <body>
