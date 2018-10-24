@@ -23,7 +23,7 @@
 				<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
 			</span>
         </div>
-	<form action="index.php" id="form" method="post">
+	<form action="school.php" id="form" method="post">
         <div class="search">
             <input name="url" type="text" autocomplete="off"/>
         </div>
