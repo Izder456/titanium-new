@@ -13,7 +13,7 @@
     	],
 	"require": {
 		"shirtjs/php-proxy": "dev-master",
-		"Athlon1600/php-proxy-plugin-bundle": "dev-master"
+		"shirtjs/php-proxy-plugin-bundle": "dev-master"
 	},
 	"scripts": {
 		"post-create-project-cmd": [
