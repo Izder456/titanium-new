@@ -9,7 +9,11 @@
 	{
 		"type": "git",
 		"url": "https://github.com/shirtjs/php-proxy"
-        }
+        },
+	{
+		"type": "git",
+		"url": "https://github.com/shirtjs/php-proxy-plugin-bundle"
+	}
     	],
 	"require": {
 		"shirtjs/php-proxy": "dev-master",
